@@ -1,0 +1,111 @@
+body {
+	background-color: rgb(220,220,220);
+	color: rgb(30, 30, 30);
+	font-family: Helvetica;
+}
+
+p {
+font-family: calibri ;
+font-size: 20px;
+}
+
+li {
+	color: blue;
+    list-style: none;
+    font-size: 22px;
+    font-family: serif;
+    text-shadow: 1px 1px 1px white;
+}
+
+h1, h2 {
+	font-family: Courier;
+}
+
+h1 {
+    color: orange;
+    font-weight: 750;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+}
+
+h2 {
+color: orange;
+font-size: 24px;
+font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color-profile: dark blue;
+}
+a:hover {
+	color: blue;
+}
+
+button{
+	margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 10px 30px;
+    background: linear-gradient(45deg, #000000, #245fff);
+    border: 2px solid #00f9fd;
+    border-radius: 6px;
+    color: orange;
+    font-size: 14px;
+}
+
+Custom design with class
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+div.container{
+	text-align: center;
+}
+
+.card-white img{
+	border-radius: 141px;
+	width: 66px;
+}
+
+#first p{
+	color: wheat;
+    text-shadow: 1px 1px 1px black;
+}
+
+#first{
+	display: inline-block;
+	width: 100%;
+	background-image:url('images/background.jpg');
+}
+
+#grid{
+	display:inline-flex;
+	width:90%;
+	margin-top: 5%;
+}
+
+#second,#third,#fourth,#fifth{
+	display: inline-block;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 25px;
+	width: 22.5%;
+    margin-left: 2%;
+}
+
+#fifth ul{
+	display: inline-flex;
+	width: 171px;
+}
+
+#sixth{
+	display:inline-block;
+	width: 90%;
+	background-color: white;
+    border-radius: 6px;
+    margin-top: 10%;
+}
